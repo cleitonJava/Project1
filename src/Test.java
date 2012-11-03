@@ -12,16 +12,16 @@ public class Test
 			
 			System.out.println("End of the process");
 			
-			Animal a1 = new Animal();
-			Animal a2 = new Dog();
+			Animal animal = new Animal();
+			Animal dog = new Dog();
 			Animal cat = new Cat();
 			
-			a1.domir();
-			a1.eat();
+			animal.domir();
+			animal.eat();
 			
-			a2.domir();
-			a2.eat();
-			((Dog)a2).speak();
+			dog.domir();
+			dog.eat();
+			((Dog)dog).speak();
 			
 			cat.domir();
 			cat.eat();

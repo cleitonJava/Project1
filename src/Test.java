@@ -25,8 +25,7 @@ public class Test
 			
 			a3.domir();
 			a3.eat();
-			((Cat)a3).speak();
-			
+			((Cat)a3).speak();			
 			
 		}
 	}

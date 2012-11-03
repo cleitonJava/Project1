@@ -14,7 +14,7 @@ public class Test
 			
 			Animal a1 = new Animal();
 			Animal a2 = new Dog();
-			Animal a3 = new Cat();
+			Animal cat = new Cat();
 			
 			a1.domir();
 			a1.eat();
@@ -23,9 +23,9 @@ public class Test
 			a2.eat();
 			((Dog)a2).speak();
 			
-			a3.domir();
-			a3.eat();
-			((Cat)a3).speak();			
+			cat.domir();
+			cat.eat();
+			((Cat)cat).speak();			
 			
 		}
 	}
